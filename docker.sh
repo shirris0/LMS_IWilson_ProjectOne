@@ -1,13 +1,12 @@
 echo "este es otro mensaje desde el shell"
 
-#docker stop fwk_fe
+docker stop app_iwilson
 
-#docker rm fwk_fe
+docker rm app_iwilson
 
-#docker rmi fwk_fe
+docker rmi app_iwilson
 
-#docker build -t fwk_fe .
+docker build -t app_iwilson .
 
-#docker run --name fwk_fe -e TZ="America/Mexico_City" --restart always -p 80:80 -p 443:443 fwk_fe
+docker run --name app_iwilson -e TZ="America/Mexico_City" -p 80:80  app_iwilson
 
-#wilson
