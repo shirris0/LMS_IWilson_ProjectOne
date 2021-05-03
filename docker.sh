@@ -12,6 +12,8 @@ docker run --name app_iwilson -p 80:80 -d app_iwilson
 
 docker export app_iwilson > app_iwilson.tar
 
+echo "Trabajo terminado"
+
 
 
 
